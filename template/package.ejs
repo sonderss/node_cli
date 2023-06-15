@@ -1,0 +1,16 @@
+{
+
+"name": "<%= packageName %>",
+"version": "1.0.0",
+"description": "",
+"main": "index.js",
+"scripts": { "test": "echo \"Error: no test specified\" && exit 1" },
+"keywords": [],
+"author": "",
+"license": "ISC",
+"devDependencies": { <% if
+    (frame=='vue' ) { %> "vue" : "3.2.45" <% } %> <% if (frame=='angular' ) { %>
+"angular" : "1.8.2" <% } %> <% if (frame=='react' ) { %> "react" : "17.0.2" <% }
+    %>
+}
+}

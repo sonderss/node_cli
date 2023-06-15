@@ -1,0 +1,7 @@
+{
+  "description": "cli",
+  "devDependencies": {
+    "ejs": "^3.1.9",
+    "inquirer": "^8.0.0"
+  }
+}
